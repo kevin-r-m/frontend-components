@@ -14,9 +14,6 @@ body div.half-circle {
   border-radius: 10px 100px 100px 10px;
   transition: transform 1.75s, translate 1.75s;
 }
-body div.half-circle:nth-child(1).active {
-  transform: rotate(360deg) translateX(-90px);
-}
 body div.half-circle:nth-child(1):hover {
   transform: skew(-0.06turn, 18deg);
 }
